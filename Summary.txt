@@ -17,7 +17,7 @@
 ## Node.js and Core modules:
 **	node.js ships with multiple core module (http,fs, path  etc).
 **	core module can be imported into any file to be used there.
-** import via require('module').
+**  import via require('module').
 
 ##	The node module system:
 **	import via require(./path-to-file) for custom files or require(module) for core and thired party modules.
@@ -26,7 +26,7 @@
 ##  NPM
 **  npm stand for "node package manager" and it allows you toi amanage your node projecty and its dependencies.
 **  you can initailize a project a npm init.
-** npm scripts can be defined in the package.json to give you "shortcuts" to common tasks/ commands.
+**  npm scripts can be defined in the package.json to give you "shortcuts" to common tasks/ commands.
 
 ##  3RD Party packages
 **  node projects typically dont just use core modules and cistoms code but third-party packages.
