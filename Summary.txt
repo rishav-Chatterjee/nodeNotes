@@ -1,4 +1,4 @@
-## How the wen works :
+## How the web works :
 **	Clienrt => request => server => response => client
 	
 ## Program Lifescycle and event loops:
@@ -22,3 +22,19 @@
 ##	The node module system:
 **	import via require(./path-to-file) for custom files or require(module) for core and thired party modules.
 **	Export via module.exports or just exports(for multiple exports).
+
+##  NPM
+**  npm stand for "node package manager" and it allows you toi amanage your node projecty and its dependencies.
+**  you can initailize a project a npm init.
+** npm scripts can be defined in the package.json to give you "shortcuts" to common tasks/ commands.
+
+##  3RD Party packages
+**  node projects typically dont just use core modules and cistoms code but third-party packages.
+**  you install them via npm.
+**  you can deffentialte between production dependencies (--save), develpment dependencies (--save-dev) and gobal dependencies (-g).
+
+## Debugging
+**  use the vs code node debugger to step into you code and go through it step by step.
+**  analyz variable values at runtime.
+**  look into variables at runtime.
+**  set breakpoints cleverly.
