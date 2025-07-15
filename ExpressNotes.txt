@@ -1,0 +1,3 @@
+##  Middleware, next() and res()
+**  express relies heavily on middleware funtions- you can easily add them by calling use().
+**  middleware funtions handle a req and should call next() to foward the req to the next func un line or send a res.
